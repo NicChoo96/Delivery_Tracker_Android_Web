@@ -1,0 +1,110 @@
+.loader {
+  --loader__size: 90px;
+  --loader__color: black;
+
+  --loader__grid-speed: 1.2s;
+  --loader__direction: -1;
+
+  --loader__dimensions: var(--loader__size);
+  --steps: 18;
+
+  --loader__grid-delay-5: calc(
+    var(--loader__grid-speed) / var(--steps) * 5 * var(--loader__direction)
+  );
+  --loader__grid-delay-4: calc(
+    var(--loader__grid-speed) / var(--steps) * 4 * var(--loader__direction)
+  );
+  --loader__grid-delay-3: calc(
+    var(--loader__grid-speed) / var(--steps) * 3 * var(--loader__direction)
+  );
+  --loader__grid-delay-2: calc(
+    var(--loader__grid-speed) / var(--steps) * 2 * var(--loader__direction)
+  );
+  --loader__grid-delay-1: calc(
+    var(--loader__grid-speed) / var(--steps) * 1 * var(--loader__direction)
+  );
+
+  display: block;
+  position: absolute;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+
+  width: var(--loader__dimensions);
+  height: var(--loader__dimensions);
+}
+
+/* loader with thanos snap fading grid */
+
+.loader div {
+  --loader__dimensions: calc(var(--loader__size) / 3);
+  position: absolute;
+  width: var(--loader__dimensions);
+  height: var(--loader__dimensions);
+  background: var(--loader__color);
+  animation: loader__grid var(--loader__grid-speed) ease-in-out infinite;
+}
+
+.loader div:nth-child(1) {
+  top: 0;
+  left: 0;
+  animation-delay: var(--loader__grid-delay-5);
+}
+.loader div:nth-child(2) {
+  top: 0;
+  left: var(--loader__dimensions);
+  animation-delay: var(--loader__grid-delay-4);
+}
+.loader div:nth-child(3) {
+  top: 0;
+  left: calc(var(--loader__dimensions) * 2);
+  animation-delay: var(--loader__grid-delay-3);
+}
+.loader div:nth-child(4) {
+  top: var(--loader__dimensions);
+  left: 0;
+  animation-delay: var(--loader__grid-delay-4);
+}
+.loader div:nth-child(5) {
+  top: var(--loader__dimensions);
+  left: var(--loader__dimensions);
+  animation-delay: var(--loader__grid-delay-3);
+}
+.loader div:nth-child(6) {
+  top: var(--loader__dimensions);
+  left: calc(var(--loader__dimensions) * 2);
+  animation-delay: var(--loader__grid-delay-2);
+}
+.loader div:nth-child(7) {
+  top: calc(var(--loader__dimensions) * 2);
+  left: 0;
+  animation-delay: var(--loader__grid-delay-3);
+}
+.loader div:nth-child(8) {
+  top: calc(var(--loader__dimensions) * 2);
+  left: var(--loader__dimensions);
+  animation-delay: var(--loader__grid-delay-2);
+}
+.loader div:nth-child(9) {
+  top: calc(var(--loader__dimensions) * 2);
+  left: calc(var(--loader__dimensions) * 2);
+  animation-delay: var(--loader__grid-delay-1);
+}
+
+@keyframes loader__grid {
+  0%,
+  10%,
+  90%,
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.25);
+    opacity: 0;
+  }
+}

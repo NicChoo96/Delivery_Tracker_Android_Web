@@ -1,0 +1,27 @@
+.signin__submit-btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signin__login-img {
+  width: auto;
+  height:100%
+}
+
+.signin__branding {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  user-select: none;
+}
+
+.signin__branding-header {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.signin__branding-message {
+  color: grey;
+  font-style: italic;
+  height: 4em;
+}

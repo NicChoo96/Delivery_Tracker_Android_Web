@@ -1,0 +1,26 @@
+.navbar__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: inherit;
+  line-height: 24px;
+
+  position: fixed;;
+  top: 0;
+  width: 100%;
+  z-index: 1000 ! important;
+}
+
+.navbar__app-label {
+  margin: auto 1em;
+  font-size: 1.2em;
+}
+
+.navbar__app-icon {
+  height: 2em;
+}
+
+.navbar__signout {
+  display: inline-flex;
+  margin: auto 2em;
+}

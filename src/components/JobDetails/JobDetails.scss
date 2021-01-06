@@ -1,0 +1,20 @@
+.job-details__mapholder {
+  position: relative;
+  width: auto;
+  height: 100%;
+}
+
+.job-details__full-length-height {
+  height: 100%;
+}
+
+/* ========== Job Location Report ========== */
+
+.job-location__data-control-group {
+  user-select: none;
+}
+
+.job-location__no-data-message {
+  height: 5em !important;
+}
+

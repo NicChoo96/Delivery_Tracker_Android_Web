@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "contractors": {
+      "$uid": {
+      	".write": "$uid === auth.uid",
+    	},
+      ".read": "auth.uid != null"
+    },
+    
+    "managers": {
+      "$uid": {
+      	".write": "$uid === auth.uid"
+    	},
+      ".read": "auth.uid != null"
+    }
+  }
+}

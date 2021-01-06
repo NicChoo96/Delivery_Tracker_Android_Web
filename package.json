@@ -1,0 +1,70 @@
+{
+  "name": "3003_front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/data-grid": "^4.0.0-alpha.8",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@react-google-maps/api": "^1.11.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/history": "^4.7.8",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^14.14.6",
+    "@types/react": "^16.9.55",
+    "@types/react-dom": "^16.9.9",
+    "@types/react-redux": "^7.1.9",
+    "axios": "^0.21.0",
+    "better-docs": "^2.3.2",
+    "date-fns": "^2.16.1",
+    "firebase": "^7.23.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-firebase-hooks": "^2.2.0",
+    "react-geocode": "^0.2.2",
+    "react-google-autocomplete": "^1.2.6",
+    "react-google-maps": "^9.4.5",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.0",
+    "redux": "^4.0.5",
+    "sanitize.css": "^12.0.1",
+    "typescript": "^4.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "docs": "./node_modules/.bin/jsdoc ./README.md -c jsdoc.conf.json"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^9.5.0",
+    "husky": "^4.2.5",
+    "jest-dom": "^4.0.0",
+    "jsdoc": "^3.6.6",
+    "node-sass": "^4.14.1",
+    "prettier": "^2.1.2",
+    "pretty-quick": "^3.0.2",
+    "react-test-renderer": "^16.13.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run build"
+    }
+  }
+}

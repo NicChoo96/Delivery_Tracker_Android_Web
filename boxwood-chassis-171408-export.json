@@ -1,0 +1,115 @@
+{
+  "contractors" : {
+    "3VCT1GUGvdYKxhk0YaraeOczpi83" : {
+      "jobList" : {
+        "-MKnzrnfZpJuw52D5j7E" : {
+          "company" : "Netflix",
+          "dateTimeEnd" : 0,
+          "dateTimeStart" : 1603972518937
+        },
+        "-MKo-dXJdfyEoOhbYbeJ" : {
+          "company" : "Grab",
+          "dateTimeEnd" : 0,
+          "dateTimeStart" : 1603969124497,
+          "location" : {
+            "-MKo-i44XVs9378L2y9I" : {
+              "dateTimeStamp" : 1603969147396,
+              "lat" : 1.29698,
+              "lon" : 103.84867
+            },
+            "-MKo-pdVrwY93Is398nJ" : {
+              "dateTimeStamp" : 1603969178400,
+              "lat" : 1.29698,
+              "lon" : 103.84867
+            }
+          }
+        },
+        "-MKoZBwKXcOuXArj00JL" : {
+          "company" : "Uber",
+          "dateTimeEnd" : 0,
+          "dateTimeStart" : 1603978443006
+        },
+        "-MKog_6_jXFXOzyLKuvV" : {
+          "company" : "Netflix3",
+          "dateTimeEnd" : 0,
+          "dateTimeStart" : 1603980641934
+        },
+        "-MKogyyEkA42PPf4Etj1" : {
+          "company" : "Test",
+          "dateTimeEnd" : 0,
+          "dateTimeStart" : 1603980748171
+        },
+        "-MKohWHc8Ii6JjY5isCg" : {
+          "company" : "Testst",
+          "dateTimeEnd" : 0,
+          "dateTimeStart" : 1603980888664
+        },
+        "-MKoiQ2Ru7-frbPQzJBQ" : {
+          "company" : "Hello",
+          "dateTimeEnd" : 0,
+          "dateTimeStart" : 1603981124888
+        },
+        "-MKojUJ3hArr5s7mM7KW" : {
+          "company" : "asd",
+          "dateTimeEnd" : 0,
+          "dateTimeStart" : 1603981404944
+        }
+      },
+      "name" : "Malcom Co",
+      "phoneNo" : "2313123123"
+    },
+    "ZQ1sYEqbPSfYfO8EAHesQuHDimD2" : {
+      "jobList" : {
+        "-MJqbgKIt7NWc7tWcZmu" : {
+          "company" : "MacroHard2",
+          "companyName" : "",
+          "dateTimeEnd" : 1602939979999,
+          "dateTimeStart" : 1602939177220,
+          "location" : {
+            "yomama" : {
+              "dateTime" : 1602939183204,
+              "lat" : 1.38,
+              "lon" : 103.8489
+            }
+          }
+        },
+        "-MJqbgKIt8NWc8tWc8mu" : {
+          "company" : "Microsoft69",
+          "companyName" : "",
+          "dateTimeEnd" : 1602939179220,
+          "dateTimeStart" : 1602939177220,
+          "location" : {
+            "-MJqbgpdkDfxpowhFJnz" : {
+              "dateTime" : 1602939179290,
+              "lat" : 1.3098,
+              "lon" : 103.7775
+            },
+            "-MJqbhmnUkJeRpsyrY3s" : {
+              "dateTime" : 1602939183269,
+              "lat" : 1.38,
+              "lon" : 103.8489
+            },
+            "yomamanohair" : {
+              "dateTime" : 1602939183204,
+              "lat" : 1.2864,
+              "lon" : 103.8253
+            }
+          }
+        }
+      },
+      "name" : "Elon Musk",
+      "phoneNo" : "95123456"
+    }
+  },
+  "managers" : {
+    "-MIIzLnYLdDTiwH-QqMi" : {
+      "email" : "JohnDoe@gmail.com",
+      "name" : "John Doe",
+      "phoneNo" : "87654321"
+    },
+    "vqziuoeWoaPzscfhRaeeOH4ohFn1" : {
+      "name" : "Lim Xing Zhi",
+      "phoneNo" : "69696969"
+    }
+  }
+}

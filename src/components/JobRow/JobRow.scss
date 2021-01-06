@@ -1,0 +1,38 @@
+.job-row__status-completed,
+.job-row__status-inprogress {
+  border-radius: 5px;
+  text-align: center;
+  padding: 0.5em;
+  white-space: nowrap;
+}
+
+.job-row__status-completed {
+  background-color: #33eb91;
+}
+
+.job-row__status-inprogress {
+  background-color: #ffef62;
+}
+
+.job-row__id_btn {
+  max-width: 100%;
+}
+
+.job-row__id_string {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 5em;
+}
+
+.job-row__cell-no-wrap {
+  white-space: nowrap;
+}
+
+:nth-child(odd).job-row__row {
+  background-color: #f3f3f3;
+}
+
+.job-row__row:hover {
+  background-color: #ddffff;
+}

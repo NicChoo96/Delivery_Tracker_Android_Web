@@ -1,0 +1,28 @@
+{
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "source": {
+    "include": ["src"],
+    "includePattern": ".+\\.(jsx|ts)?$"
+  },
+  "plugins": [
+    "better-docs",
+    "node_modules/better-docs/category",
+    "node_modules/better-docs/typescript"
+  ],
+  "typescript": {
+    "moduleRoot": "src"
+  },
+  "templates": {
+    "better-docs": {
+      "name": "JSDocs for Trackee App"
+    }
+  },
+  "opts": {
+    "destination": "docs",
+    "recurse": true,
+    "template": "node_modules/better-docs"
+  },
+  "readme": "./README.md"
+}

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contractor matches snapshot 1`] = `
+<div
+  className="contractor__card-width"
+>
+  <div
+    className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <div
+      className="MuiCardContent-root contractor__card-wrapper"
+    >
+      <h1
+        className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextPrimary"
+      >
+        <span
+          className="contractor_name"
+        />
+      </h1>
+      <p
+        className="MuiTypography-root MuiTypography-caption"
+      >
+        from 
+        <span
+          className="contractor__company-name"
+        />
+      </p>
+      <p
+        className="MuiTypography-root MuiTypography-body2"
+      >
+        Mobile number: 
+      </p>
+    </div>
+  </div>
+</div>
+`;
